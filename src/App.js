@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import ConditionalRendaring from './Componants/ConditionalRendaring';
+import ListRendaringUsingMap from './Componants/ListRendaringUsingMap';
 // import MyComponant from './Componants/Hello';//Default Export
 // import  Hello  from './Componants/Hello'; //Default Export
 // // import {Hello} from './Componants/Hello'; //Named Export
@@ -12,11 +14,16 @@ import './App.css';
 // import FunctionClick from './Componants/FunctionClick';
 // import EventBind from './Componants/EventBind'
 // import ClassClick from './Componants/ClassClick';
-import ParentComponent from './Componants/ParentComponent';
+// import ParentComponent from './Componants/ParentComponent';
+// import ShopingList from './Componants/ShopingList';
+// import ConditionalRendaring from './Componants/ConditionalRendaring';
 function App() {
   return (
     <div className="App">
-      <ParentComponent />
+      <ListRendaringUsingMap />
+      <ConditionalRendaring />
+      {/* <ParentComponent />
+      <ShopingList name="Ganesh" /> */}
       {/* <Message /> */}
       {/* <FunctionClick /> */}
       {/* <ClassClick /> */}
@@ -24,14 +31,14 @@ function App() {
       {/* <Counter /> */}
     {/* <GreetD name="Ganesh" language="Malayalam"/> */}
       
-      {/* <Greet name="Mahesh" language="All" > <p> This is Children Property </p> </Greet>
-      <Greet name="Gajanan" language="Marathi" ><button>Super</button></Greet>
-      <Greet name="Gitimoni" language="Assamise" />
-      <Welcome name="Gitimoni" language="Assamise"/>
-      <Welcome name="Gajanan" language="Marathi"/>
-      <Welcome name="Mahesh" language="All"/>
-      <Hello />
-      <WithoutJXS /> */}
+      {/* <Greet name="Mahesh" language="All" > <p> This is Children Property </p> </Greet> */}
+      {/* <Greet name="Gajanan" language="Marathi" ><button>Super</button></Greet> */}
+      {/* <Greet name="Gitimoni" language="Assamise" /> */}
+      {/* <Welcome name="Gitimoni" language="Assamise"/> */}
+      {/* <Welcome name="Gajanan" language="Marathi"/> */}
+      {/* <Welcome name="Mahesh" language="All"/> */}
+      {/* <Hello /> */}
+      {/* <WithoutJXS /> */}
     </div>
   );
 }
