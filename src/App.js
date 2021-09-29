@@ -1,7 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
-import ConditionalRendaring from './Componants/ConditionalRendaring';
-import ListRendaringUsingMap from './Componants/ListRendaringUsingMap';
+import Inline from './Componants/Inline';
+// import ConditionalRendaring from './Componants/ConditionalRendaring';
+// import ListRendaringUsingMap from './Componants/ListRendaringUsingMap';
+// import NameList from './Componants/NameList';
+import StyleSheet from './Componants/StyleSheet';
+import StylModule from './Componants/StylModule';
 // import MyComponant from './Componants/Hello';//Default Export
 // import  Hello  from './Componants/Hello'; //Default Export
 // // import {Hello} from './Componants/Hello'; //Named Export
@@ -20,8 +24,13 @@ import ListRendaringUsingMap from './Componants/ListRendaringUsingMap';
 function App() {
   return (
     <div className="App">
-      <ListRendaringUsingMap />
-      <ConditionalRendaring />
+      <StyleSheet primary={true} />
+      <Inline />
+      <StylModule />
+      {/* <NameList /> */}
+
+      {/* <ListRendaringUsingMap /> */}
+      {/* <ConditionalRendaring /> */}
       {/* <ParentComponent />
       <ShopingList name="Ganesh" /> */}
       {/* <Message /> */}
