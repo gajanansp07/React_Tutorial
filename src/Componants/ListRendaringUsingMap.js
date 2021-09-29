@@ -23,7 +23,7 @@ function ListRendaringUsingMap() {
             skills : "Angular"
         }
     ]  
-    const parsonList = parsons.map(parson => <ListParson parson={parson}></ListParson>
+    const parsonList = parsons.map(parson => <ListParson key={parson.id} parson={parson}></ListParson>
         // <h2> I am {parson.name}, I am {parson.age} year old and I Know {parson.skills}</h2>
     )
 
